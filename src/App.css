@@ -1,0 +1,45 @@
+.App{
+  max-width: 320px;
+  height: 210px;
+  background: #444;
+  border-radius: 8px;
+  box-shadow: 2px 10px 10px #000;
+}
+
+p{
+  font-family: fantasy;
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+  text-shadow: 1px 5px 17px #000;
+}
+
+button{
+  padding: 8px 16px;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.5s all ease;
+  box-shadow: 4px 4px 4px #000;
+  border: none;
+  outline: none;
+}
+
+button:active{
+  box-shadow: inset 4px 4px 4px #000;
+}
+
+.start{
+  background: #04db02;
+}
+
+.stop{
+  background: #fd1919;
+}
+
+.reset{
+  background: #fcf808;
+}

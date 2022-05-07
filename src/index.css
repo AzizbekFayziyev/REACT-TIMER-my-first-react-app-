@@ -1,0 +1,13 @@
+body {
+  background: #333;
+  text-align: center;
+  text-shadow: 2px 2px 15px #fff;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+h1{
+  font-family: source-code-pro, monospace;
+}
